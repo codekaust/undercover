@@ -3,19 +3,17 @@ const { createServer } = require('http');
 const { Server } = require('socket.io');
 
 const WORD_PAIRS = [
-  ["Cat", "Dog"], ["Coffee", "Tea"], ["Guitar", "Violin"], ["Pizza", "Burger"],
-  ["Sun", "Moon"], ["Beach", "Desert"], ["Apple", "Orange"], ["Rain", "Snow"],
-  ["Doctor", "Nurse"], ["Bicycle", "Motorcycle"], ["Piano", "Keyboard"],
+  ["Cat", "Kittens"], ["Coffee", "Tea"],  ["Pizza", "Burger"],
+ ["Beach", "Desert"], ["Apple", "Orange"], ["Rain", "Snow"],
+  ["Bicycle", "Motorcycle"], ["Piano", "Keyboard"],
   ["Butter", "Cheese"], ["Soccer", "Basketball"], ["Shirt", "Jacket"],
-  ["River", "Lake"], ["Train", "Bus"], ["Pen", "Pencil"], ["Sofa", "Chair"],
-  ["Cake", "Cookie"], ["Painting", "Drawing"], ["Frog", "Toad"],
-  ["Butterfly", "Moth"], ["Dolphin", "Whale"], ["Laptop", "Tablet"],
-  ["Candle", "Lamp"], ["Pillow", "Cushion"], ["Jam", "Jelly"],
-  ["Boots", "Sneakers"], ["Scarf", "Tie"], ["Soup", "Stew"],
+  ["River", "Lake"], ["Train", "Bus"], ["Sofa", "Chair"],
+  ["Cake", "Cookie"], ["Painting", "Drawing"], 
+ ["Jam", "Jelly"],
+  ["Heels", "Sneakers"], ["Scarf", "Tie"]
   ["Helicopter", "Airplane"], ["Couch", "Bed"], ["Honey", "Syrup"],
   ["Tiger", "Lion"], ["Sword", "Knife"], ["Castle", "Palace"],
-  ["Forest", "Jungle"], ["Yogurt", "Ice Cream"], ["Newspaper", "Magazine"],
-  ["Gloves", "Mittens"]
+  ["Forest", "Jungle"], ["Yogurt", "Ice Cream"], ["Newspaper", "Magazine"], ["Dog", "Puppy"]
 ];
 
 const app = express();
